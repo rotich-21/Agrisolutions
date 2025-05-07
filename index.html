@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavAgri Solutions - Farm Equipment & Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-tractor me-2"></i>NavAgri Solutions
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Our Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html#machinery">Farm Machinery</a></li>
+                            <li><a class="dropdown-item" href="services.html#implements">Farm Implements</a></li>
+                            <li><a class="dropdown-item" href="services.html#animals">Dairy Animals</a></li>
+                            <li><a class="dropdown-item" href="services.html#plots">Farm Plots</a></li>
+                            <li><a class="dropdown-item" href="services.html#services">Farm Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold text-white mb-4">Your Trusted Agricultural Partner</h1>
+                    <p class="lead text-white mb-5">Your one stop Agricultural Partner for Premium farm machinery, healthy dairy cattle, fertile plots, and reliable services - all in one place.</p>
+                    <a href="services.html" class="btn btn-light btn-lg me-3">Explore Services</a>
+                    <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Categories -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <a href="services.html#machinery" class="category-card">
+                        <div class="card border-0 shadow-sm h-100 text-center">
+                            <div class="card-body">
+                                <i class="fas fa-tractor fa-3x text-success mb-3"></i>
+                                <h3>Farm Machinery</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="services.html#implements" class="category-card">
+                        <div class="card border-0 shadow-sm h-100 text-center">
+                            <div class="card-body">
+                                <i class="fas fa-tools fa-3x text-success mb-3"></i>
+                                <h3>Farm Implements</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="services.html#animals" class="category-card">
+                        <div class="card border-0 shadow-sm h-100 text-center">
+                            <div class="card-body">
+                                <i class="fas fa-cow fa-3x text-success mb-3"></i>
+                                <h3>Dairy Animals</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="services.html#services" class="category-card">
+                        <div class="card border-0 shadow-sm h-100 text-center">
+                            <div class="card-body">
+                                <i class="fas fa-hand-holding-heart fa-3x text-success mb-3"></i>
+                                <h3>Farm Services</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Products</h2>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/MasseyFerguson.jpeg" class="card-img-top" alt="Massey Ferguson Tractor">
+                        <div class="card-body">
+                            <h5 class="card-title">Massey Ferguson MF375</h5>
+                            <div class="specs mb-3">
+                                <p><strong>HP:</strong> 50HP</p>
+                                <p><strong>Type:</strong> 4WD Diesel</p>
+                                <p><strong>Warranty:</strong> 3 Years</p>
+                            </div>
+                            <h4 class="text-success">Ksh. 1,500,000</h4>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="contact.html" class="btn btn-success w-100">Inquire Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="col-md-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/holsteinFriesian.jpeg" class="card-img-top" alt="Holstein Cow">
+                        <div class="card-body">
+                            <h5 class="card-title">Holstein Friesian</h5>
+                            <div class="specs mb-3">
+                                <p><strong>Age:</strong> 3 Years</p>
+                                <p><strong>Yield:</strong> 25-30L/day</p>
+                                <p><strong>Health:</strong> Vaccinated</p>
+                            </div>
+                            <h4 class="text-success">Ksh.100,000</h4>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="contact.html" class="btn btn-success w-100">Contact Vet</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="col-md-4">
+                    <div class="card product-card h-100 border-0 shadow-sm">
+                        <img src="images/farm1.jpeg" class="card-img-top" alt="Farm Plot">
+                        <div class="card-body">
+                            <h5 class="card-title">10-Acre Fertile Land</h5>
+                            <div class="specs mb-3">
+                                <p><strong>Location:</strong> Ziwa</p>
+                                <p><strong>Soil Type:</strong> Alluvial</p>
+                                <p><strong>Irrigation:</strong> Available</p>
+                            </div>
+                            <h4 class="text-success">Ksh. 2,000,000/acre</h4>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="contact.html" class="btn btn-success w-100">Schedule Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="services.html" class="btn btn-outline-success">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Trusted Partners</h2>
+            <div class="row align-items-center">
+                <div class="col-6 col-md-3 text-center mb-4">
+                    <img src="images/johnderelogo.jpeg" alt="John Deere" class="img-fluid partner-logo">
+                </div>
+                <div class="col-6 col-md-3 text-center mb-4">
+                    <img src="images/mahindra.jpeg" alt="Mahindra" class="img-fluid partner-logo">
+                </div>
+                <div class="col-6 col-md-3 text-center mb-4">
+                    <img src="images/fmd.jpeg" alt="Amul" class="img-fluid partner-logo">
+                </div>
+                <div class="col-6 col-md-3 text-center mb-4">
+                    <img src="images/kubotalogo.jpeg" alt="Kubota" class="img-fluid partner-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Customers Say</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="card-text">"Bought a high-yield cow from NavAgri Solutions - now producing 25L/day! Their after-sales support is excellent."</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 d-flex align-items-center">
+                            <img src="images/image1.jpeg" alt="Customer" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" class="rounded-circle me-3">
+                            <div>
+                                <h6 class="mb-0">Hiram Rotich</h6>
+                                <small class="text-muted">Dairy Farmer, Barsombe</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="card-text">"The John Deere tractor I purchased has transformed my farming operations. Highly recommended!"</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 d-flex align-items-center">
+                            <img src="images/image2.jpeg" alt="Customer" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" class="rounded-circle me-3">
+                            <div>
+                                <h6 class="mb-0">Nehemiah Koech</h6>
+                                <small class="text-muted">Farm Owner, Moiben</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="card-text">"Their farm plot leasing service helped me expand my operations without huge upfront investment."</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 d-flex align-items-center">
+                            <img src="images/image3.jpeg" alt="Customer" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;"  class="rounded-circle me-3">
+                            <div>
+                                <h6 class="mb-0">Elisha Koech</h6>
+                                <small class="text-muted">Agri Entrepreneur, Eldoret</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-success text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to Transform Your Farming Experience?</h2>
+            <p class="lead mb-5">Contact us today for personalized agricultural solutions.</p>
+            <a href="contact.html" class="btn btn-light btn-lg me-3">Get in Touch</a>
+            <a href="tel:+254727538720" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-phone me-2"></i> Call Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-4">
+                        <i class="fas fa-tractor me-2"></i> NavAgri Solutions
+                    </h5>
+                    <p>Your trusted partner for all agricultural needs - machinery, dairy, land, and farm related services.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white">Our Services</a></li>
+                        <li><a href="contact.html" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-4">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="services.html#machinery" class="text-white">Farm Machinery</a></li>
+                        <li class="mb-2"><a href="services.html#implements" class="text-white">Farm Implements</a></li>
+                        <li class="mb-2"><a href="services.html#animals" class="text-white">Dairy Animals</a></li>
+                        <li class="mb-2"><a href="services.html#plots" class="text-white">Farm Plots</a></li>
+                        <li><a href="services.html#services" class="text-white">Farm Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i> Barsombe, Eldoret, Kenya
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-phone me-2"></i> +254 727 538720
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope me-2"></i> info@navagrisolutions.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 NavAgri Solutions. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed By RohiTech <i class="fas fa-heart text-danger"></i> for farmers</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
