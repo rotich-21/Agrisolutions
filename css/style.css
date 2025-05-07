@@ -50,8 +50,7 @@ a {
 
 /* === Hero Section === */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080?text=Farm+Background');
-    background-color: #1b5e20;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.freepik.com/free-photo/green-field-with-clouds_1160-431.jpg?t=st=1746616541~exp=1746620141~hmac=0e3b7cb488127f2f6f558d9ce12b63a2bc13f19ba9c3ab25e0813fcc5d7dfdc3&w=1380');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -63,9 +62,10 @@ a {
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x600?text=Agricultural+Background');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.freepik.com/free-photo/green-field-with-clouds_1160-431.jpg?t=st=1746616541~exp=1746620141~hmac=0e3b7cb488127f2f6f558d9ce12b63a2bc13f19ba9c3ab25e0813fcc5d7dfdc3&w=1380');
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 /* === Cards === */
